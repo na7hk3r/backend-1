@@ -7,13 +7,14 @@ public class Persona {
     private String email;
     private int age;
 
+    // Constructor
     public Persona(String name, String surname, String email, int age) {
         this.name = name;
         this.surname = surname;
         this.email = email;
         this.age = age;
     }
-
+    // Getters y Setters
     public String getName() {
         return name;
     }

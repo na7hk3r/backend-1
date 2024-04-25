@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PersonaTest {
 
+    // Testear si el usuario es mayor a 18, comparado a la fecha manual 21/9/2024
     @Test
     void testIsAdult() {
         // "Fecha actual"
@@ -29,6 +30,7 @@ class PersonaTest {
 
     }
 
+    // Metodos necesarios para verificar si la fecha indicada por el usuario es mayor o menor a la definida
     private int calcularEdad(LocalDate fechaActual, LocalDate fechaNacimiento) {
         return fechaActual.getYear() - fechaNacimiento.getYear();
     }
@@ -36,7 +38,7 @@ class PersonaTest {
         return age >= 18;
     }
 
-
+    // Testear que el nombre completo se muestre en el formato correcto Apellido, Nombre
     @Test
     void testFullName() {
         // Datos de Prueba
