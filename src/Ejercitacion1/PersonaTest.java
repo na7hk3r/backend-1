@@ -1,3 +1,6 @@
+package Ejercitacion1;
+
+import Ejercitacion1.Persona;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
