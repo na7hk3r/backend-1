@@ -27,6 +27,6 @@ public class CalculadoraArea {
     }
 
     public static double calcularAreaCuadrado(double lado) {
-        return Math.pow(lado, 2);
+        return lado * lado;
     }
 }
